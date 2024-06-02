@@ -11,5 +11,6 @@ namespace DemoMicroservices.Core.Events
         public Guid Id { get; set; }
         public Guid SourceId { get; set; }
         public int Version { get; set; }
+        public Guid Trigger { get; set; }
     }
 }

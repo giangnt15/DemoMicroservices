@@ -7,7 +7,9 @@ using System.Threading.Tasks;
 
 namespace DemoMicroservices.Core.Commands
 {
-    public interface ICommand : IMessage
+    public class CommandEnvelop : Envelop
     {
+        public string DestChannel { get; set; }
+        public string ReplyChannel { get; set; }
     }
 }

@@ -7,7 +7,8 @@ using System.Threading.Tasks;
 
 namespace DemoMicroservices.Core.Commands
 {
-    public interface ICommand : IMessage
+    public class Command : Message, ICommand
     {
+
     }
 }

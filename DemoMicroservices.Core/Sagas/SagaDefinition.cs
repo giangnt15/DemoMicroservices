@@ -5,9 +5,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DemoMicroservices.Core.Commands
+namespace DemoMicroservices.Core.Sagas
 {
-    public interface ICommand : IMessage
+    public class SagaDefinition<TData> : AbstractSagaDefinition<TData>
     {
+
+
     }
 }

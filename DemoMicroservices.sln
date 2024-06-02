@@ -3,9 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoMicroservices.OrderService", "DemoMicroservices.OrderService\DemoMicroservices.OrderService.csproj", "{A2D008B1-FA47-460B-B083-8FCEF2DCA5EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoMicroservices.OrderService", "DemoMicroservices.OrderService\DemoMicroservices.OrderService.csproj", "{A2D008B1-FA47-460B-B083-8FCEF2DCA5EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoMicroservices.Core", "DemoMicroservices.Core\DemoMicroservices.Core.csproj", "{3FD47C83-48CB-4543-A852-070E3857EEA0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoMicroservices.Core", "DemoMicroservices.Core\DemoMicroservices.Core.csproj", "{3FD47C83-48CB-4543-A852-070E3857EEA0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoMicroservices.Core.Shared", "DemoMicroservices.Core.Shared\DemoMicroservices.Core.Shared.csproj", "{FC867BD0-4E75-40DF-B1C5-5662E348BD70}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoMicroservices.Core.Saga", "DemoMicroservices.Core.Saga\DemoMicroservices.Core.Saga.csproj", "{32836FD7-4A5E-451D-812C-0344AD8D2360}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoMicroservices.Tests", "DemoMicroservices.Tests\DemoMicroservices.Tests.csproj", "{28BD9B66-DDB1-43F0-96E1-9F8E42C0ACE2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoMicroservices.Core.EntifyFrameworkCore", "DemoMicroservices.Core.EntifyFrameworkCore\DemoMicroservices.Core.EntifyFrameworkCore.csproj", "{94CA257C-F5DA-4769-BFB5-2E323E23FD21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoMicroservices.Core.Sqs", "DemoMicroservices.Core.Sqs\DemoMicroservices.Core.Sqs.csproj", "{703F3619-0E18-4468-BA77-9E8EFF7D5742}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +31,26 @@ Global
 		{3FD47C83-48CB-4543-A852-070E3857EEA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3FD47C83-48CB-4543-A852-070E3857EEA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3FD47C83-48CB-4543-A852-070E3857EEA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC867BD0-4E75-40DF-B1C5-5662E348BD70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC867BD0-4E75-40DF-B1C5-5662E348BD70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC867BD0-4E75-40DF-B1C5-5662E348BD70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC867BD0-4E75-40DF-B1C5-5662E348BD70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32836FD7-4A5E-451D-812C-0344AD8D2360}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32836FD7-4A5E-451D-812C-0344AD8D2360}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32836FD7-4A5E-451D-812C-0344AD8D2360}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32836FD7-4A5E-451D-812C-0344AD8D2360}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28BD9B66-DDB1-43F0-96E1-9F8E42C0ACE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28BD9B66-DDB1-43F0-96E1-9F8E42C0ACE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28BD9B66-DDB1-43F0-96E1-9F8E42C0ACE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28BD9B66-DDB1-43F0-96E1-9F8E42C0ACE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94CA257C-F5DA-4769-BFB5-2E323E23FD21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94CA257C-F5DA-4769-BFB5-2E323E23FD21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94CA257C-F5DA-4769-BFB5-2E323E23FD21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94CA257C-F5DA-4769-BFB5-2E323E23FD21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{703F3619-0E18-4468-BA77-9E8EFF7D5742}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{703F3619-0E18-4468-BA77-9E8EFF7D5742}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{703F3619-0E18-4468-BA77-9E8EFF7D5742}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{703F3619-0E18-4468-BA77-9E8EFF7D5742}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
